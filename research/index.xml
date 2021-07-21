@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Themes | Debjit Pal</title>
+    <link>https://paldebjit.github.io/research/</link>
+      <atom:link href="https://paldebjit.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research Themes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Debjit Pal 2021</copyright>
+    <image>
+      <url>https://paldebjit.github.io/media/icon_hu2a840fe0f7459a38642b729a88214fad_284883_512x512_fill_lanczos_center_2.png</url>
+      <title>Research Themes</title>
+      <link>https://paldebjit.github.io/research/</link>
+    </image>
+    
+    <item>
+      <title>Hardware Security Analysis</title>
+      <link>https://paldebjit.github.io/research/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paldebjit.github.io/research/security/</guid>
+      <description>&lt;h1 id=&#34;write-the-details-here&#34;&gt;Write the details here&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ML and Reconfigurable Computing</title>
+      <link>https://paldebjit.github.io/research/ml_and_dsl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paldebjit.github.io/research/ml_and_dsl/</guid>
+      <description>&lt;h1 id=&#34;write-the-details-here&#34;&gt;Write the details here&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verification and Reliability</title>
+      <link>https://paldebjit.github.io/research/verif_and_rel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://paldebjit.github.io/research/verif_and_rel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

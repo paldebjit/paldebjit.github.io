@@ -77,15 +77,6 @@
     <loc>https://paldebjit.github.io/publication/dac-2018/</loc>
     <lastmod>2018-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://paldebjit.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paldebjit.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://paldebjit.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://paldebjit.github.io/publication-type/0/</loc>
     <lastmod>2016-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,5 +96,13 @@
     <lastmod>2011-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://paldebjit.github.io/admin/</loc>
+  </url><url>
+    <loc>https://paldebjit.github.io/research/security/</loc>
+  </url><url>
+    <loc>https://paldebjit.github.io/research/ml_and_dsl/</loc>
+  </url><url>
+    <loc>https://paldebjit.github.io/research/</loc>
+  </url><url>
+    <loc>https://paldebjit.github.io/research/verif_and_rel/</loc>
   </url>
 </urlset>
