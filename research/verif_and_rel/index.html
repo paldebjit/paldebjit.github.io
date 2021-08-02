@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="An example of using the in-built project page." />
+  <meta name="description" content=" " />
 
   
   <link rel="alternate" hreflang="en-us" href="https://paldebjit.github.io/research/verif_and_rel/" />
@@ -265,7 +265,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.5cb23ba6a0e3e62be1cf9db90ef6e2fd.css" />
+  <link rel="stylesheet" href="/css/wowchemy.845bef72a64f3a038906465a95f14377.css" />
 
   
 
@@ -311,11 +311,16 @@
   <meta property="og:site_name" content="Debjit Pal" />
   <meta property="og:url" content="https://paldebjit.github.io/research/verif_and_rel/" />
   <meta property="og:title" content="Verification and Reliability | Debjit Pal" />
-  <meta property="og:description" content="An example of using the in-built project page." /><meta property="og:image" content="https://paldebjit.github.io/research/verif_and_rel/featured.jpg" />
+  <meta property="og:description" content=" " /><meta property="og:image" content="https://paldebjit.github.io/research/verif_and_rel/featured.jpg" />
     <meta property="twitter:image" content="https://paldebjit.github.io/research/verif_and_rel/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
+      <meta
+        property="article:published_time"
+        content="2021-08-01T00:00:00&#43;00:00"
+      />
     
+    <meta property="article:modified_time" content="2021-08-01T00:00:00&#43;00:00">
   
 
   
@@ -676,8 +681,6 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
@@ -699,7 +702,7 @@
     
       
     
-    Jan 1, 0001
+    Aug 1, 2021
   </span>
   
 
@@ -728,10 +731,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 405px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 383px; max-height: 264px;">
   <div style="position: relative">
-    <img src="/research/verif_and_rel/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
+    <img src="/research/verif_and_rel/featured.jpg" alt="" class="featured-image">
+    
   </div>
 </div>
 
@@ -740,7 +743,14 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <h4 id="system-on-chip-soc-validation">System-on-Chip (SoC) Validation</h4>
+<p>System-on-Chips (SoCs) constitutes the primary backbone of modern embedded computing devices including many safety-critical applications e.g., autonomous vehicles, health care systems. The presence of any undetected bugs in these systems would have aberrant cost both in terms of safety and reliability and can cause loss of property or life.  Hence, SoC validation is a crucial task to ensure the functional correctness of an SoC. The sheer size, presence of hundreds of concurrently executing heterogeneous IPs, vertical integration of SoC components e.g., hardware/firmware/software to realize multiple functionality, and application-level relevance of components present a new spectrum of validation challenges that have rendered the traditional microprocessor validation paradigm moot in the context of SoC validation. The challenges include observability enhancement and debug and diagnosis under the constraint of vertical integrations, identifying high-quality verification artifacts among others. In industrial practice, SoC validation is a manual, unsystematic, and ad hoc process that heavily relies on the expertise and the creativity of the validator. Consequently, there is an urgent need to develop scalable and efficient algorithms of industrial relevance to address this massive ongoing challenge of SoC validation.</p>
+<p>In my research, we made contributions to both post-silicon and pre-silicon validation of SoCs, with highly impactful contributions to next-generation post-silicon SoC validation. We use top-down analysis, a higher level of abstraction, and application relevance as the key ideas to automate post-silicon observability enhancement for industrial scale SoCs. We scaled observability to designs that are more than 300$\times$ the size of designs that have been presented in the academic literature so far. Our observability enhancement solution can be applied at the netlist-level, behavioral level (<a href="/publication/iccad-2015">ICCAD'15</a>, <a href="/publication/tcad-2020-2">TCAD'20a</a>), and at the system-wide application level (<a href="/publication/dac-2018">DAC'18</a>) to select high-quality signals that are most beneficial for post-silicon debug and diagnosis. We apply a feature engineering based machine learning technique on the observed signal data to develop an automatic, scalable, and efficient post-silicon debug and diagnosis solution. The key idea is to learn the correct and erroneous design behavior automatically from trace data without prior design knowledge. We believe our debugging solution can automate post-silicon debug and diagnosis, where manual debugging is the norm.</p>
+<p>The quality of SoC verification and validation heavily depends on the quality of verification artifacts e.g., assertions. To automate and expedite identification of high-functional coverage assertions that are useful for regression analysis, localization, etc., we have also developed a comprehensive ranking scheme for assertions (<a href="/publication/tcad-2020-1/">TCAD'20b</a>, <a href="/publication/aspdac-2019/">ASP-DAC'19</a>, <a href="/publication/vlsi-2016/">VLSID'16</a>). The key idea is to identify assertions that capture important design behaviors by analyzing the design source code.</p>
+<p>Our SoC validation solutions are scalable and efficient. We consistently show orders of magnitude speedup improvements over the state-of-the-art while objectively improving quality of results. We have shown that going forward application-level analysis is the key to scale post-silicon validation to industrial scale SoCs. Our proposed validation solutions can plug into the existing industrial validation process to introduce automation in the current unsystematic, ad hoc, manual settings with multiple order of magnitudes of benefit.</p>
+<h4 id="hardware-reliability-estimation">Hardware Reliability Estimation</h4>
+<p>Due to the continuous technology scaling and lowering of operating voltages, modern computer systems are highly vulnerable to soft errors induced by the high-energy particles. Soft errors can corrupt program outputs leading to silent data corruption or a Crash. To protect computer systems against such failures, architects need to precisely and quickly identify vulnerable program instructions that need to be protected. Traditional techniques for program reliability estimation either use expensive and time-consuming fault injection or inaccurate analytical models to identify the program instructions that need to be protected against soft errors. In this research (<a href="/publication/date-2021/">DATE'21</a>), we present a graph learning-assisted model for fast, accurate, and transferable soft-error induced instruction vulnerability estimation. We leverage a synergy between static analysis and data-driven statistical reasoning to automatically learn signatures of instruction-level vulnerabilities and their propagation to program outputs using a fine-grain error propagation information from the bit-level program graphs of a set of realistic benchmarks.</p>
+
     </div>
 
     
